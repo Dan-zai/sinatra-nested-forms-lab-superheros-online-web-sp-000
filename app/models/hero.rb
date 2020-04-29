@@ -1,4 +1,4 @@
-Class Hero
+class Hero
 
   attr_accessor :name, :power, :bio
 
@@ -15,4 +15,4 @@ Class Hero
     @@all
   end
   
-end 
+end
