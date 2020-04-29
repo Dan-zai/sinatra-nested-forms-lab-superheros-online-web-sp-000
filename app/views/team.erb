@@ -1,3 +1,11 @@
+<h1> <%= @team.name %> <h1>
 
+  <h2> Team Motto: <%= @team.motto %> </h2>
 
+  <h2> Our Heroes! </h2>
+  <%= @heroes.each do |hero| %>
+  <h3> Hero name: <%= @heroes.motto %> </h3>
+  <p> Hero name: <%= @heroes.power %> </p>
+  <p> Hero name: <%= @heroes.bio %> </p>
 
+  <%=end%>
