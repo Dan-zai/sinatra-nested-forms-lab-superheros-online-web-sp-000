@@ -1,4 +1,4 @@
-Class Team
+class Team
 
   attr_accessor :name,:motto
 
