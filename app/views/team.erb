@@ -4,8 +4,9 @@
 
   <h2> Our Heroes! </h2>
   <%= @heroes.each do |hero| %>
-  <h3> Hero name: <%= @heroes.motto %> </h3>
-  <p> Hero name: <%= @heroes.power %> </p>
-  <p> Hero name: <%= @heroes.bio %> </p>
+  <h3> Hero name: <%= hero.motto %> </h3>
+  <p> Hero name: <%= hero.power %> </p>
+  <p> Hero name: <%= hero.bio %> </p>
 
+  <%=end%>
   <%=end%>
